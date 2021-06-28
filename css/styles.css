@@ -1,0 +1,127 @@
+/**************************TAG SELECTORS**********************************/
+body{
+  margin:0;
+  text-align: center;
+  font-family: 'Merriweather', serif;
+}
+
+
+h1{
+  color: #66BFBF;
+  font-size: 5.625rem;
+  font-family: 'Sacramento', cursive;
+  line-height: 2;
+  margin: 50px auto 0 auto;
+}
+h2{
+  color: #66BFBF;
+  font-weight: normal;
+  font-size: 2.2rem;
+  font-family: 'Asul', sans-serif;
+
+}
+h3{
+  color: #11999E;
+  font-family: 'Asul', sans-serif;
+}
+
+hr{
+  border: dotted #CDF0EA 7px;
+  border-bottom: none;
+  width: 4%;
+  margin: 100px auto;
+}
+a{
+  text-decoration: none;
+  color: #66BFBF;
+}
+/************************CLASS SELECTORS***********************************/
+.top-container{
+  background-color: #CDF0EA;
+  position: relative;
+  padding-top: 100px;
+
+}
+.middle-container{
+  margin: 80px 0;
+}
+.bottom-container{
+  background-color: #66BFBF;
+  line-height: 2;
+  padding: 30px;
+}
+
+.footer-link{
+  color: #11999E;
+  margin-left: 20px;
+  margin-right: 20px;
+  font-weight: bold;
+  text-decoration: none;
+}
+.footer-link:hover{
+  color: white;
+}
+
+.bottom-cloud{
+  position: absolute;
+  right: 300px;
+  top: 50px;
+
+}
+.top-cloud{
+  position: absolute;
+  left: 300px;
+  bottom: 300px;
+}
+
+.my-picture{
+  width: 200px;
+
+}
+
+.skill-one{
+  width:25%;
+  float:left;
+  margin-right: 30px;
+
+}
+.skill-two{
+  float:right;
+  margin-left: 30px;
+  width:25%;
+}
+
+.skill-row{
+  width: 50%;
+  margin: 80px auto 150px auto;
+  text-align: left;
+  line-height: 2;
+}
+
+.contact-me{
+  line-height: 2;
+  width: 40%;
+  margin: 40px auto;
+}
+.btn {
+  margin-top: 20px;
+   -webkit-border-radius: 20px;
+   -moz-border-radius: 20px;
+   border-radius: 20px;
+   color: #FFFFFF;
+   font-family: 'Merriweather', serif;
+   font-size: 15px;
+   font-weight: 300;
+   padding: 11px;
+   background-color: #11999E;
+   text-decoration: none;
+   display: inline-block;
+   cursor: pointer;
+   text-align: center;
+}
+.copyright{
+  color: white;
+  font-size: 0.85rem;
+  margin-top: 30px;
+  margin-bottom: 0;
+}
